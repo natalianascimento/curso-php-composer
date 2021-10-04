@@ -1,0 +1,21 @@
+{
+    "name": "natalia.nascimento/curso-php-composer",
+    "description": "\"\"\u001b[DBuscador de cursos da alura\"",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "NataliaNascimento\\CursoPhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Natália Nascimento",
+            "email": "natalia.nascc@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "symfony/dom-crawler": "^5.3.7",
+        "symfony/css-selector": "^5.3"
+    }
+}
